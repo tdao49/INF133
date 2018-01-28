@@ -1,0 +1,28 @@
+aws
+khadb@uci.edu
+khabui94
+keypair: cs122b
+ip: 54.149.193.83
+password: tvkcs122b
+
+digitalocean
+khadbui@gmail.com
+khadb-ubuntu
+ip: 138.68.239.158
+password: khaubuntu
+
+mysql
+username: root
+password: tvkcs122b
+
+tomcat server
+username: tomcat
+password: tvkcs122b
+
+how to connect:
+open bash
+ssh root@138.68.239.158
+ssh -i /root/CS122B/cs122b.pem ubuntu@54.149.193.83
+
+//mask pem file to private
+chmod 400 /root/CS122B/cs122b.pem 
