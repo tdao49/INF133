@@ -26,3 +26,5 @@ ssh -i /root/CS122B/cs122b.pem ubuntu@54.149.193.83
 
 //mask pem file to private
 chmod 400 /root/CS122B/cs122b.pem 
+
+Test
